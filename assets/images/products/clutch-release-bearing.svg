@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Clutch release bearing</title><desc id="desc">A concentric clutch release bearing assembly.</desc>
+  <rect width="800" height="800" fill="#f4f5f3"/><ellipse cx="400" cy="620" rx="225" ry="34" fill="#dfe2de"/>
+  <circle cx="400" cy="390" r="198" fill="#757b78" stroke="#272a29" stroke-width="26"/><circle cx="400" cy="390" r="143" fill="#dfe2de" stroke="#3b403e" stroke-width="24"/>
+  <circle cx="400" cy="390" r="84" fill="#f4f5f3" stroke="#f26935" stroke-width="28"/><circle cx="400" cy="390" r="39" fill="#272a29"/>
+  <path d="M534 504 636 569l-34 54-123-77m-11-317 91-77 42 48-101 94" fill="#626865" stroke="#272a29" stroke-width="17" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Brake master cylinder</title><desc id="desc">A brake master cylinder with fluid reservoir.</desc>
+  <rect width="800" height="800" fill="#f4f5f3"/><ellipse cx="405" cy="610" rx="232" ry="34" fill="#dfe2de"/>
+  <path d="M216 350h333c54 0 92 41 92 95v93H216z" fill="#747b78" stroke="#272a29" stroke-width="24" stroke-linejoin="round"/>
+  <path d="M276 350V237q0-31 31-31h174q31 0 31 31v113" fill="#e9ece9" stroke="#272a29" stroke-width="22"/>
+  <path d="M293 265h203v85H293z" fill="#ff6a32" opacity=".9"/>
+  <path d="M641 408h56v63h-56M215 406h-67v68h67M365 539v59m116-59v59" fill="none" stroke="#272a29" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="337" cy="437" r="22" fill="#daddd9"/><circle cx="431" cy="437" r="22" fill="#daddd9"/>
+</svg>

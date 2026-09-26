@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="theme-color" content="#111111">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/64/car.png">
+    <title>AutoParts — Pièces automobiles & accessoires</title>
+    <meta name="description" content="Catalogue de pièces automobiles avec descriptions détaillées, prix en USD, compatibilité à confirmer et contact direct sur WhatsApp.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AutoParts — Pièces automobiles & accessoires">
+    <meta property="og:description" content="Catalogue automobile en français avec fiches détaillées et contact WhatsApp.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Store",
+            "name": "AutoParts",
+            "areaServed": "CM",
+            "description": "Catalogue de pièces automobiles avec assistance directe."
+        }
+    </script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html" aria-label="AutoParts"><span>AUTO</span>PARTS</a>
+            <nav class="desktop-nav" aria-label="Navigation principale">
+                <a class="active" href="index.html" data-i18n="home">Accueil</a>
+                <a href="shop.html" data-i18n="shop">Catalogue</a>
+                <a href="#categories" data-i18n="categories">Catégories</a>
+                <a href="#testimonials" data-i18n="testimonials">Témoignages</a>
+                <button class="nav-contact" type="button" data-contact-open data-i18n="contact">Contact</button>
+            </nav>
+            <div class="nav-actions">
+                <div id="google_translate_element" class="google-translate" aria-label="Translate this page"></div>
+                <a class="nav-icon search-icon" href="shop.html" aria-label="Rechercher"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <button class="nav-icon menu-toggle" type="button" aria-label="Menu" aria-expanded="false" data-menu-toggle><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+        <nav class="mobile-menu" data-mobile-menu aria-label="Navigation mobile">
+            <a href="index.html" data-i18n="home">Accueil</a>
+            <a href="shop.html" data-i18n="shop">Catalogue</a>
+            <a href="#categories" data-i18n="categories">Catégories</a>
+            <a href="#testimonials" data-i18n="testimonials">Témoignages</a>
+            <button type="button" data-contact-open data-i18n="contact">Contact</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-inner">
+                <div class="hero-copy reveal">
+                    <h1 data-i18n="heroTitle">La bonne pièce, au bon moment.</h1>
+                    <p data-i18n="heroText">Parcourez notre catalogue, consultez les prix en USD et confirmez la compatibilité avant de commander.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="shop.html"><span data-i18n="browseCatalog">Voir le catalogue</span><i class="fa-solid fa-arrow-right"></i></a>
+                        <button class="btn btn-ghost" type="button" data-contact-open><i class="fa-regular fa-message"></i><span data-i18n="requestPart">Demander une pièce</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section categories" id="categories">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div><span class="section-kicker" data-i18n="browseSystem">Explorer par système</span>
+                        <h2 data-i18n="popularCategories">Catégories populaires</h2>
+                    </div>
+                    <a href="shop.html" data-i18n="viewAll">Voir tout</a>
+                </div>
+                <div class="category-scroll-controls" aria-label="Faire défiler les catégories">
+                    <button type="button" data-category-scroll="prev" aria-label="Catégories précédentes"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button type="button" data-category-scroll="next" aria-label="Catégories suivantes"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="category-rail" data-category-rail>
+                    <a class="category-card reveal" href="shop.html?category=braking"><span class="category-icon"><i class="fa-solid fa-compact-disc category-fallback" aria-hidden="true"></i><img src="https://img.icons8.com/ios-filled/100/brake-discs.png" alt="" width="30" height="30" loading="lazy" onerror="this.remove()"></span><div><h3>Freinage</h3><p>Plaquettes, disques et étriers</p></div></a>
+                    <a class="category-card reveal" href="shop.html?category=engine"><span class="category-icon"><i class="fa-solid fa-gears category-fallback" aria-hidden="true"></i><img src="https://img.icons8.com/ios-filled/100/engine.png" alt="" width="30" height="30" loading="lazy" onerror="this.remove()"></span><div><h3>Moteur</h3><p>Turbo, admission et moteur</p></div></a>
+                    <a class="category-card reveal" href="shop.html?category=electrical"><span class="category-icon"><i class="fa-solid fa-bolt category-fallback" aria-hidden="true"></i><img src="https://img.icons8.com/ios-filled/100/lightning-bolt.png" alt="" width="30" height="30" loading="lazy" onerror="this.remove()"></span><div><h3>Électricité</h3><p>Alternateurs, démarreurs, moteurs</p></div></a>
+                    <a class="category-card reveal" href="shop.html?category=transmission"><span class="category-icon"><i class="fa-solid fa-gears category-fallback" aria-hidden="true"></i><img src="https://img.icons8.com/ios-filled/100/gears.png" alt="" width="30" height="30" loading="lazy" onerror="this.remove()"></span><div><h3>Transmission</h3><p>Embrayage et commande</p></div></a>
+                    <a class="category-card reveal" href="shop.html?category=suspension"><span class="category-icon"><i class="fa-solid fa-car-side category-fallback" aria-hidden="true"></i><img src="https://img.icons8.com/ios-filled/100/car.png" alt="" width="30" height="30" loading="lazy" onerror="this.remove()"></span><div><h3>Suspension</h3><p>Moyeux, supports et protections</p></div></a>
+                    <a class="category-card reveal" href="shop.html?category=body"><span class="category-icon"><i class="fa-solid fa-car category-fallback" aria-hidden="true"></i><img src="https://img.icons8.com/ios-filled/100/door.png" alt="" width="30" height="30" loading="lazy" onerror="this.remove()"></span><div><h3>Carrosserie & joints</h3><p>Joints, étanchéité et garnitures</p></div></a>
+                    <a class="category-card reveal" href="shop.html?category=interior"><span class="category-icon"><i class="fa-solid fa-gauge-high category-fallback" aria-hidden="true"></i><img src="https://img.icons8.com/ios-filled/100/steering-wheel.png" alt="" width="30" height="30" loading="lazy" onerror="this.remove()"></span><div><h3>Habitacle</h3><p>Commandes et accessoires</p></div></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section featured-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div><span class="section-kicker" data-i18n="featured">Sélection</span>
+                        <h2 data-i18n="popularParts">Pièces à découvrir</h2>
+                    </div>
+                    <a href="shop.html" data-i18n="shopAll">Tout le catalogue</a>
+                </div>
+                <div class="product-grid" data-products-grid data-limit="12"></div>
+            </div>
+        </section>
+
+        <section class="promo-section">
+            <div class="container promo-grid">
+                <article class="promo-card promo-photo reveal">
+                    <div class="promo-overlay"></div>
+                    <div class="promo-content">
+                        <span data-i18n="fastSupport">Assistance rapide</span>
+                        <h3 data-i18n="notSure">Vous ne trouvez pas la bonne référence ?</h3>
+                        <p data-i18n="notSureText">Indiquez la marque, le modèle, l'année et la pièce recherchée. Nous préparons le message puis poursuivons sur WhatsApp.</p>
+                        <button type="button" class="promo-link" data-contact-open><span data-i18n="contactUs">Nous contacter</span> <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </article>
+                <article class="promo-card promo-orange reveal">
+                    <div>
+                        <span data-i18n="simpleOrder">Commande simple</span>
+                        <h3 data-i18n="noAccount">Pas de compte, pas de panier imposé.</h3>
+                        <p data-i18n="noAccountText">Choisissez une pièce, consultez sa fiche et échangez avec le vendeur avant de confirmer.</p>
+                        <a href="shop.html"><span data-i18n="browseCatalog">Voir le catalogue</span> <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section testimonials" id="testimonials">
+            <div class="container">
+                <div class="testimonial-section-head reveal">
+                    <span class="section-kicker" data-i18n="customerStories">Témoignages</span>
+                    <h2 data-i18n="customersSay">Ce que disent nos clients</h2>
+                    <p data-i18n="testimonialIntro">Une sélection de témoignages présentés de façon simple pour mettre en avant la qualité du service et la réactivité.</p>
+                </div>
+                <!-- Placeholder profiles/content to replace with approved client testimonials before final launch. -->
+                <div class="testimonial-scroller" data-testimonial-scroller aria-label="Témoignages clients">
+                    <article class="testimonial-card reveal">
+                        <div class="testimonial-head"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Marc N.">
+                            <div><strong>Marc N.</strong><span data-fr="Client particulier" data-en="Private customer">Client particulier</span></div>
+                        </div>
+                        <div class="stars" aria-hidden="true">★★★★★</div>
+                        <blockquote data-fr="« J’ai trouvé la référence beaucoup plus vite et j’ai pu confirmer la compatibilité directement avant de commander. »" data-en="“I found the reference much faster and could confirm compatibility directly before ordering.”">« J’ai trouvé la référence beaucoup plus vite et j’ai pu confirmer la compatibilité directement avant de commander. »</blockquote>
+                    </article>
+                    <article class="testimonial-card light reveal">
+                        <div class="testimonial-head"><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Aïcha T.">
+                            <div><strong>Aïcha T.</strong><span data-fr="Cliente" data-en="Customer">Cliente</span></div>
+                        </div>
+                        <div class="stars" aria-hidden="true">★★★★★</div>
+                        <blockquote data-fr="« Les informations sur la fiche produit sont claires, surtout la référence et les détails à vérifier. »" data-en="“The product page is clear, especially the reference and the details that need to be checked.”">« Les informations sur la fiche produit sont claires, surtout la référence et les détails à vérifier. »</blockquote>
+                    </article>
+                    <article class="testimonial-card light reveal">
+                        <div class="testimonial-head"><img src="https://randomuser.me/api/portraits/men/11.jpg" alt="Junior K.">
+                            <div><strong>Junior K.</strong><span data-fr="Garage partenaire" data-en="Workshop customer">Garage partenaire</span></div>
+                        </div>
+                        <div class="stars" aria-hidden="true">★★★★★</div>
+                        <blockquote data-fr="« Le formulaire fait gagner du temps : toutes les informations du véhicule arrivent déjà dans WhatsApp. »" data-en="“The form saves time because all the vehicle details arrive in WhatsApp already prepared.”">« Le formulaire fait gagner du temps : toutes les informations du véhicule arrivent déjà dans WhatsApp. »</blockquote>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section benefits">
+            <div class="container benefit-grid">
+                <div class="benefit reveal"><i class="fa-solid fa-list-check"></i>
+                    <h3 data-i18n="catalogueClear">Catalogue clair</h3>
+                    <p data-i18n="catalogueClearText">Photos, description, prix et caractéristiques au même endroit.</p>
+                </div>
+                <div class="benefit reveal"><i class="fa-solid fa-tags"></i>
+                    <h3 data-i18n="usdPrices">Prix en USD</h3>
+                    <p data-i18n="usdPricesText">Les prix indicatifs restent visibles pendant la navigation.</p>
+                </div>
+                <div class="benefit reveal"><i class="fa-brands fa-whatsapp"></i>
+                    <h3 data-i18n="directSupport">Contact direct</h3>
+                    <p data-i18n="directSupportText">Passez du formulaire à WhatsApp sans ressaisir vos informations.</p>
+                </div>
+                <div class="benefit reveal"><i class="fa-solid fa-car-side"></i>
+                    <h3 data-i18n="fitmentCheck">Référence vérifiée</h3>
+                    <p data-i18n="fitmentCheckText">La compatibilité est confirmée avant la commande.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="footer-cta">
+        <div class="container footer-cta-inner">
+            <div><span class="section-kicker" data-i18n="productHelp">Trouver une pièce</span>
+                <h2 data-fr="Vous avez une référence, une photo ou seulement le modèle du véhicule ?" data-en="Do you have a reference, a photo, or just the vehicle model?">Vous avez une référence, une photo ou seulement le modèle du véhicule ?</h2>
+            </div>
+            <button class="btn btn-primary" type="button" data-contact-open><i class="fa-regular fa-message"></i><span data-i18n="contactUs">Nous contacter</span></button>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-grid footer-grid-3">
+            <div class="footer-about">
+                <a class="brand footer-brand" href="index.html"><span>AUTO</span>PARTS</a>
+                <p>Pièces automobiles, informations claires et assistance directe pour trouver la bonne référence.</p>
+                <div class="footer-social"><a data-whatsapp href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></div>
+            </div>
+            <div>
+                <h4>Catalogue</h4><a href="shop.html">Tous les produits</a><a href="shop.html?category=engine">Moteur</a><a href="shop.html?category=electrical">Électricité</a><a href="shop.html?category=suspension">Suspension</a></div>
+            <div>
+                <h4>Assistance</h4><button class="footer-link-button" type="button" data-contact-open>Trouver une pièce</button><a data-whatsapp href="#">WhatsApp</a><a href="#testimonials">Témoignages</a><button class="footer-link-button" type="button" data-contact-open>Contact</button><span>Cameroun</span></div>
+        </div>
+        <div class="container footer-bottom"><span>© 2026 AutoParts. Tous droits réservés.</span><span>Des pièces, des détails, un contact simple.</span></div>
+    </footer>
+
+    <div class="contact-modal" data-contact-modal aria-hidden="true">
+        <div class="contact-panel" role="dialog" aria-modal="true" aria-labelledby="contact-title">
+            <button class="contact-close" type="button" data-contact-close aria-label="Fermer"><i class="fa-solid fa-xmark"></i></button>
+            <span class="section-kicker" data-i18n="contact">Contact</span>
+            <h2 id="contact-title" data-i18n="contactTitle">Décrivez la pièce recherchée</h2>
+            <p data-i18n="contactText">Remplissez les informations utiles. Le site prépare ensuite votre message et ouvre WhatsApp.</p>
+            <form class="contact-form" data-contact-form>
+                <div class="form-grid">
+                    <label><span data-i18n="name">Nom</span><input name="name" required data-i18n-placeholder="namePlaceholder" placeholder="Votre nom"></label>
+                    <label><span data-i18n="phone">Téléphone</span><input name="phone" type="tel" required data-i18n-placeholder="phonePlaceholder" placeholder="+237 6…"></label>
+                    <label><span data-i18n="city">Ville</span><input name="city" data-i18n-placeholder="cityPlaceholder" placeholder="Douala, Yaoundé…"></label>
+                    <label><span data-i18n="vehicle">Véhicule / modèle</span><input name="vehicle" data-i18n-placeholder="vehiclePlaceholder" placeholder="Ex. Toyota Prado"></label>
+                    <label><span data-i18n="year">Année</span><input name="year" inputmode="numeric" data-i18n-placeholder="yearPlaceholder" placeholder="Ex. 2008"></label>
+                    <label><span data-i18n="part">Pièce recherchée</span><select name="part" required data-contact-part></select></label>
+                    <label><span>Référence / OEM</span><input name="reference" placeholder="Ex. 67871-60100"></label>
+                </div>
+                <label><span data-i18n="message">Précisions</span><textarea name="message" rows="4" data-i18n-placeholder="messagePlaceholder" placeholder="Référence OEM, côté gauche/droit, photo disponible…"></textarea></label>
+                <p class="form-error" data-form-error hidden></p>
+                <div class="form-actions"><button class="btn btn-secondary" type="button" data-contact-close data-i18n="cancel">Annuler</button><button class="btn btn-whatsapp" type="submit"><i class="fa-brands fa-whatsapp"></i><span data-i18n="sendWhatsapp">Continuer sur WhatsApp</span></button></div>
+            </form>
+        </div>
+    </div>
+
+    <a class="floating-whatsapp" data-whatsapp href="#" target="_blank" rel="noopener noreferrer" aria-label="Contact AutoParts on WhatsApp at +237 600 000 000" title="WhatsApp: +237 600 000 000">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        <span>+237 600 000 000</span>
+    </a>
+
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: "fr",
+                includedLanguages: "en,it",
+                autoDisplay: false
+            }, "google_translate_element");
+            if (window.decorateGoogleTranslate) window.decorateGoogleTranslate();
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
+</body>
+
+</html>

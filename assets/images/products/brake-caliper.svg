@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Brake caliper</title><desc id="desc">A red-orange brake caliper with dark brake pads.</desc>
+  <rect width="800" height="800" fill="#f4f5f3"/><ellipse cx="402" cy="628" rx="224" ry="34" fill="#dfe2de"/>
+  <path d="M255 228h226c78 0 132 58 132 136v193H482V390H327v167H187V347c0-66 26-119 68-119Z" fill="#e75f31" stroke="#272a29" stroke-width="25" stroke-linejoin="round"/>
+  <path d="M330 281h132v73H330zm0 155h132v73H330z" fill="#373b3a"/>
+  <path d="M193 330h-52v238h82m395-242h46v242h-67" fill="none" stroke="#6e7470" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="276" cy="383" r="27" fill="#f4f5f3" stroke="#272a29" stroke-width="16"/><circle cx="522" cy="383" r="27" fill="#f4f5f3" stroke="#272a29" stroke-width="16"/>
+  <path d="M367 215v-47h116v47" fill="none" stroke="#272a29" stroke-width="20" stroke-linecap="round"/>
+</svg>

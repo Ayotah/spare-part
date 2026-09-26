@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Rear door weatherstrip</title><desc id="desc">A molded rubber automotive door seal.</desc>
+  <rect width="800" height="800" fill="#f4f5f3"/><ellipse cx="405" cy="619" rx="233" ry="33" fill="#dfe2de"/>
+  <path d="M249 228c-98 38-131 123-104 245 22 102 106 151 218 141l169-15c85-8 131-74 119-167-13-101-67-165-165-181l-132-22c-40-7-77-8-105-1Z" fill="none" stroke="#272a29" stroke-width="52" stroke-linecap="round"/>
+  <path d="M249 228c-98 38-131 123-104 245 22 102 106 151 218 141l169-15c85-8 131-74 119-167-13-101-67-165-165-181l-132-22c-40-7-77-8-105-1Z" fill="none" stroke="#f26935" stroke-width="9" stroke-dasharray="3 18" stroke-linecap="round"/>
+  <circle cx="316" cy="330" r="25" fill="#f4f5f3" stroke="#747b78" stroke-width="13"/><circle cx="523" cy="489" r="25" fill="#f4f5f3" stroke="#747b78" stroke-width="13"/>
+</svg>

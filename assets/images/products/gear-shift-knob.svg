@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Gear shift knob</title><desc id="desc">A black gear shift knob on a leather boot.</desc>
+  <rect width="800" height="800" fill="#f4f5f3"/><ellipse cx="400" cy="630" rx="205" ry="34" fill="#dfe2de"/>
+  <path d="m285 538 43-112h144l43 112-56 64H341z" fill="#343938" stroke="#242827" stroke-width="22"/>
+  <path d="M364 428V342h72v86" fill="#777e7a" stroke="#242827" stroke-width="19"/>
+  <path d="M313 286c0-74 39-132 87-132s87 58 87 132c0 62-36 95-87 95s-87-33-87-95Z" fill="#252928" stroke="#171a19" stroke-width="23"/>
+  <path d="M334 260q66-47 132 0" fill="none" stroke="#f26935" stroke-width="12" stroke-linecap="round"/>
+  <path d="m354 492 47 92m44-92-45 92" stroke="#686e6b" stroke-width="11"/>
+</svg>

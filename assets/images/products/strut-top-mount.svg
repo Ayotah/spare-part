@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Strut top mount</title><desc id="desc">A suspension strut top mount with central bearing.</desc>
+  <rect width="800" height="800" fill="#f4f5f3"/><ellipse cx="400" cy="620" rx="225" ry="35" fill="#dfe2de"/>
+  <path d="M218 423c0-107 81-194 182-194s182 87 182 194v81H218z" fill="#3a3f3d" stroke="#242827" stroke-width="23"/>
+  <path d="M260 422c0-82 62-147 140-147s140 65 140 147v38H260z" fill="#777e7a"/>
+  <circle cx="400" cy="385" r="83" fill="#f4f5f3" stroke="#f26935" stroke-width="22"/><circle cx="400" cy="385" r="37" fill="#292e2c"/>
+  <path d="M245 505h310l47 57H198z" fill="#777e7a" stroke="#242827" stroke-width="19" stroke-linejoin="round"/>
+  <circle cx="248" cy="540" r="18" fill="#f4f5f3"/><circle cx="552" cy="540" r="18" fill="#f4f5f3"/>
+</svg>
