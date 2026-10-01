@@ -514,3 +514,133 @@ window.AUTO_PARTS_PRODUCTS = [{
         "specs": {"condition": "Neuf", "fitment": "Référence OEM recommandée", "origin": "Selon arrivage", "moq": "1 pièce", "warranty": "À confirmer"}
     }
 ];
+
+const additionalProducts = [
+    ["brake-hose", "braking", 18, "BRK-HOS-03", "Flexible de frein", "Brake hose"],
+    ["abs-sensor", "braking", 36, "BRK-ABS-17", "Capteur ABS de roue", "ABS wheel speed sensor"],
+    ["parking-brake-shoes", "braking", 31, "BRK-PBS-06", "Mâchoires de frein de stationnement", "Parking brake shoes"],
+    ["brake-wear-sensor", "braking", 12, "BRK-WRS-22", "Témoin d'usure des plaquettes", "Brake pad wear sensor"],
+    ["brake-booster", "braking", 96, "BRK-BST-10", "Servo-frein", "Brake booster"],
+    ["caliper-repair-kit", "braking", 24, "BRK-CRK-19", "Kit de réparation d'étrier", "Brake caliper repair kit"],
+
+    ["oil-filter", "engine", 9, "ENG-OIL-031", "Filtre à huile moteur", "Engine oil filter"],
+
+    ["gearbox-mount", "transmission", 38, "TRN-MNT-13", "Support de boîte de vitesses", "Gearbox mount"],
+    ["drive-shaft", "transmission", 112, "TRN-DS-204", "Arbre de transmission", "Drive shaft"],
+    ["cv-joint", "transmission", 48, "TRN-CV-085", "Joint homocinétique", "CV joint"],
+    ["cv-boot", "transmission", 14, "TRN-CVB-021", "Soufflet de cardan", "CV axle boot"],
+    ["transmission-filter", "transmission", 22, "TRN-FLT-046", "Filtre de transmission", "Transmission filter"],
+    ["gear-selector-cable", "transmission", 33, "TRN-CBL-058", "Câble de sélection de vitesses", "Gear selector cable"],
+    ["differential-bearing", "transmission", 41, "TRN-BRG-091", "Roulement de différentiel", "Differential bearing"],
+    ["transmission-oil-cooler", "transmission", 76, "TRN-CL-112", "Refroidisseur d'huile de transmission", "Transmission oil cooler"],
+
+    ["car-battery", "electrical", 105, "ELE-BAT-12V", "Batterie automobile 12 V", "12 V car battery"],
+    ["ignition-coil", "electrical", 28, "ELE-IGN-064", "Bobine d'allumage", "Ignition coil"],
+    ["headlight-assembly", "electrical", 89, "ELE-HDL-142", "Bloc optique avant", "Headlight assembly"],
+    ["tail-light-assembly", "electrical", 64, "ELE-TAL-118", "Feu arrière", "Tail light assembly"],
+    ["automotive-horn", "electrical", 17, "ELE-HRN-027", "Klaxon automobile", "Automotive horn"],
+    ["wiper-motor", "electrical", 57, "ELE-WIP-095", "Moteur d'essuie-glace", "Windshield wiper motor"],
+    ["door-lock-actuator", "electrical", 32, "ELE-LCK-073", "Actionneur de verrouillage de porte", "Door lock actuator"],
+
+    ["control-arm", "suspension", 74, "SUS-ARM-163", "Bras de suspension", "Suspension control arm"],
+    ["ball-joint", "suspension", 25, "SUS-BJ-042", "Rotule de suspension", "Suspension ball joint"],
+    ["tie-rod-end", "suspension", 21, "SUS-TRE-036", "Rotule de direction", "Tie rod end"],
+    ["sway-bar-link", "suspension", 16, "SUS-SBL-055", "Biellette de barre stabilisatrice", "Sway bar link"],
+    ["shock-absorber", "suspension", 79, "SUS-SHK-124", "Amortisseur", "Shock absorber"],
+    ["coil-spring", "suspension", 52, "SUS-SPR-098", "Ressort hélicoïdal", "Coil spring"],
+    ["stabilizer-bushing", "suspension", 11, "SUS-BSH-031", "Silentbloc de barre stabilisatrice", "Stabilizer bar bushing"],
+
+    ["front-bumper", "body", 138, "BDY-BMP-F01", "Pare-chocs avant", "Front bumper"],
+    ["rear-bumper", "body", 132, "BDY-BMP-R02", "Pare-chocs arrière", "Rear bumper"],
+    ["door-mirror", "body", 58, "BDY-MIR-033", "Rétroviseur extérieur", "Door mirror"],
+    ["front-grille", "body", 47, "BDY-GRL-024", "Calandre avant", "Front grille"],
+    ["front-fender", "body", 91, "BDY-FND-078", "Aile avant", "Front fender"],
+    ["hood-panel", "body", 174, "BDY-HOD-105", "Capot moteur", "Hood panel"],
+    ["tailgate-handle", "body", 23, "BDY-HDL-051", "Poignée de hayon", "Tailgate handle"],
+    ["outer-door-handle", "body", 19, "BDY-DHD-044", "Poignée de porte extérieure", "Exterior door handle"],
+    ["windshield-washer-nozzle", "body", 8, "BDY-WSN-016", "Gicleur de lave-glace", "Windshield washer nozzle"],
+
+    ["steering-wheel", "interior", 68, "INT-STR-109", "Volant de direction", "Steering wheel"],
+    ["rubber-floor-mats", "interior", 26, "INT-MAT-032", "Tapis de sol en caoutchouc", "Rubber floor mats"],
+    ["seat-belt", "interior", 44, "INT-SBT-087", "Ceinture de sécurité", "Seat belt"],
+    ["sun-visor", "interior", 22, "INT-SNV-043", "Pare-soleil intérieur", "Interior sun visor"],
+    ["pedal-cover-set", "interior", 15, "INT-PDL-025", "Jeu de garnitures de pédales", "Pedal cover set"],
+    ["interior-door-panel", "interior", 82, "INT-DPN-114", "Panneau intérieur de porte", "Interior door panel"],
+    ["instrument-cluster", "interior", 119, "INT-INS-153", "Combiné d'instruments", "Instrument cluster"],
+    ["cabin-blower-motor", "interior", 54, "INT-BLW-092", "Ventilateur d'habitacle", "Cabin blower motor"],
+    ["center-console", "interior", 73, "INT-CON-127", "Console centrale", "Center console"]
+];
+
+const additionalProductImages = {
+    "brake-hose": "pexels-4294075.png",
+    "abs-sensor": "pexels-34277923.png",
+    "parking-brake-shoes": "pexels-36774072.png",
+    "brake-wear-sensor": "pexels-18180594.png",
+    "brake-booster": "pexels-32132991.png",
+    "caliper-repair-kit": "pexels-13350018.png",
+    "oil-filter": "pexels-29226626.png",
+    "gearbox-mount": "pexels-28721763.png",
+    "drive-shaft": "pexels-29181492.png",
+    "cv-joint": "pexels-28752154.png",
+    "cv-boot": "pexels-15419149.png",
+    "transmission-filter": "pexels-7568428.png",
+    "gear-selector-cable": "pexels-1822838.png",
+    "differential-bearing": "pexels-7568427.png",
+    "transmission-oil-cooler": "pexels-38264266.png",
+    "car-battery": "pexels-37177070.png",
+    "ignition-coil": "pexels-18617941.png",
+    "headlight-assembly": "pexels-35862849.png",
+    "tail-light-assembly": "pexels-32609652.png",
+    "automotive-horn": "pexels-6165935.png",
+    "wiper-motor": "pexels-4488662.png",
+    "door-lock-actuator": "pexels-39779119.png",
+    "control-arm": "pexels-10912797.png",
+    "ball-joint": "pexels-34277922.png",
+    "tie-rod-end": "pexels-8986137.png",
+    "sway-bar-link": "pexels-31040178.png",
+    "shock-absorber": "pexels-34357289.png",
+    "coil-spring": "pexels-33024451.png",
+    "stabilizer-bushing": "pexels-13393008.png",
+    "front-bumper": "pexels-28201021.png",
+    "rear-bumper": "pexels-34234850.png",
+    "door-mirror": "pexels-7540400.png",
+    "front-grille": "pexels-32199866.png",
+    "front-fender": "pexels-35503906.png",
+    "hood-panel": "pexels-10182891.png",
+    "tailgate-handle": "pexels-7409806.png",
+    "outer-door-handle": "pexels-10051260.png",
+    "windshield-washer-nozzle": "pexels-6044794.png",
+    "steering-wheel": "pexels-13131705.png",
+    "rubber-floor-mats": "pexels-28055130.png",
+    "seat-belt": "pexels-38053878.png",
+    "sun-visor": "pexels-8886308.png",
+    "pedal-cover-set": "pexels-13971747.png",
+    "interior-door-panel": "pexels-29753516.png",
+    "instrument-cluster": "pexels-10638651.png",
+    "cabin-blower-motor": "pexels-9258385.png",
+    "center-console": "pexels-37821828.png"
+};
+
+window.AUTO_PARTS_PRODUCTS.push(...additionalProducts.map(([id, category, price, sku, nameFr, nameEn]) => ({
+    id,
+    category,
+    price,
+    sku,
+    images: [`assets/images/products/${additionalProductImages[id]}`],
+    name: { fr: nameFr, en: nameEn },
+    short: {
+        fr: `${nameFr} de remplacement; compatibilité à confirmer.`,
+        en: `Replacement ${nameEn.toLowerCase()}; fitment must be confirmed.`
+    },
+    description: {
+        fr: `${nameFr} de remplacement. Photo illustrative; confirmez la référence OEM, le modèle, l'année et les spécifications du véhicule avant commande.`,
+        en: `Replacement ${nameEn.toLowerCase()}. Illustrative photo; confirm the OEM reference, model, year and vehicle specifications before ordering.`
+    },
+    specs: {
+        condition: "Neuf",
+        fitment: "Véhicule à confirmer",
+        origin: "Selon arrivage",
+        moq: "1 pièce",
+        warranty: "À confirmer"
+    }
+})));
