@@ -45,7 +45,7 @@ window.AUTO_PARTS_PRODUCTS = [{
         "price": 32,
         "sku": "BP-001",
         "images": [
-            "assets/images/products/brake-pads.webp"
+            "assets/images/products/brake-pads.png"
         ],
         "name": {
             "fr": "Plaquettes de frein premium",
@@ -73,7 +73,7 @@ window.AUTO_PARTS_PRODUCTS = [{
         "price": 70,
         "sku": "BD-014",
         "images": [
-            "assets/images/products/brake-disc.webp"
+            "assets/images/products/brake-disc.png"
         ],
         "name": {
             "fr": "Disque de frein ventilé",
@@ -101,7 +101,7 @@ window.AUTO_PARTS_PRODUCTS = [{
         "price": 315,
         "sku": "TRB-220",
         "images": [
-            "assets/images/products/turbo.webp"
+            "assets/images/products/turbo.png"
         ],
         "name": {
             "fr": "Turbocompresseur complet",
@@ -129,7 +129,7 @@ window.AUTO_PARTS_PRODUCTS = [{
         "price": 120,
         "sku": "CK-118",
         "images": [
-            "assets/images/products/clutch-kit.webp"
+            "assets/images/products/clutch-kit.png"
         ],
         "name": {
             "fr": "Kit d’embrayage complet",
@@ -157,7 +157,7 @@ window.AUTO_PARTS_PRODUCTS = [{
         "price": 149,
         "sku": "ALT-090",
         "images": [
-            "assets/images/products/alternator.webp"
+            "assets/images/products/alternator.png"
         ],
         "name": {
             "fr": "Alternateur automobile",
@@ -185,7 +185,7 @@ window.AUTO_PARTS_PRODUCTS = [{
         "price": 122,
         "sku": "STR-074",
         "images": [
-            "assets/images/products/starter.webp"
+            "assets/images/products/starter.png"
         ],
         "name": {
             "fr": "Démarreur automobile",
