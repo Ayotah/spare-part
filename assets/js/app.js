@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
     const config = window.AUTO_PARTS_CONFIG || {};
     const products = window.AUTO_PARTS_PRODUCTS || [];
     const categories = window.AUTO_PARTS_CATEGORIES || {};
@@ -11,13 +11,17 @@
 
         const addFlags = () => {
             const select = widget.querySelector("select.goog-te-combo");
-            if (!select || ![...select.options].some(option => option.value === "en") || ![...select.options].some(option => option.value === "it")) return false;
+            if (!select) return false;
 
-            const labels = {en: "🇬🇧 English", it: "🇮🇹 Italiano"};
+            widget.querySelectorAll(".goog-logo-link, .goog-te-gadget-icon, .goog-te-banner-frame, .goog-te-balloon-frame").forEach(el => el.remove());
+
+            const labels = {fr: "Français", en: "English", it: "Italiano"};
             Array.from(select.options).forEach(option => {
                 if (labels[option.value]) option.textContent = labels[option.value];
             });
             select.setAttribute("aria-label", "Translate page language");
+            select.title = "Translate page language";
+            select.style.fontSize = "0.68rem";
             return true;
         };
 
@@ -26,6 +30,7 @@
             if (addFlags()) observer.disconnect();
         });
         observer.observe(widget, {childList: true, subtree: true});
+        setTimeout(() => addFlags(), 600);
     };
 
     const DICT = {
